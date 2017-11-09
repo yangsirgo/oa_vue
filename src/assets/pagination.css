@@ -1,0 +1,124 @@
+
+.pagi_line {
+    width: 1165px;
+    padding-bottom: 80px;
+}
+
+.cutepage a.jumpbtn {
+    width: 41px;
+    margin: 0;
+    /*cursor: pointer;*/
+}
+
+.pagi_line a:hover {
+    cursor: pointer;
+}
+
+.cutepage {
+    padding: 0px 0px 8px 0px;
+    position: relative;
+    text-align: right;
+    /*padding: 8px 0px;*/
+    font-size: 13px;
+}
+.app-table-list a.disabled {
+    color: #999;
+    cursor: default;
+    text-decoration: none;
+}
+.cutepage .disabled {
+    /*display: none;*/
+}
+
+.cutepage .next{
+    width: 60px;
+    height: 18px;
+}
+
+.cutepage .prev{
+    width: 60px;
+    height: 18px;
+}
+
+.cutepage a {
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    color: #539Be9!important;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 3px;
+    background-color: #fff;
+}
+/*a {*/
+    /*text-decoration: none;*/
+    /*outline: 0;*/
+    /*color: #47c7ea;*/
+/*}*/
+.cutepage span.selected {
+    background: #539Be9;
+    color: #fff!important;
+    text-decoration: none;
+    border-color: #539Be9;
+    /*font-weight: bold;*/
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 3px;
+    border-radius: 4px;
+}
+.cutepage input.jumpnum {
+    display: inline-block;
+    height: 18px;
+    width: 30px;
+    margin-right: 3px;
+    text-align: center;
+    line-height: 18px;
+    vertical-align: bottom;
+    border: #D3D6D9 1px solid;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+input {
+    line-height: normal!important;
+}
+
+.div_pagination{
+    text-align: right;
+}
+
+.div_pagination p{
+    display: inline-block;
+    _zoom:1;*display:inline;
+}
+
+.div_pagination .pagination{
+    display: inline-block;
+    zoom:1;*display:inline;
+}
+
+.cutepage .disabled{
+    color: #999;
+    display: inline-block;
+    line-height: 18px;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    /*border-radius: 2px;*/
+    text-decoration: none;
+    margin-right: 3px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+
+
+        /*20.40span等点击样式*/
+        .span-block span.click_span{
+            background-color: #539BE9;;
+            color: #fff;
+        }
